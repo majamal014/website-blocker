@@ -1,0 +1,101 @@
+html, body {
+    min-width: 350px;
+    max-width: 500px;
+    min-height: 600px;
+    background-color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    color: red;
+}
+
+.website {
+    font-size: 15px;
+    background: white;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.website .address {
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.website .delete {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form #inputField {
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    
+}
+
+.form #inputField:focus {
+    outline: none;
+    border-color: green;
+}
+
+.form #addSite {
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#activate {
+    background-color: green;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
